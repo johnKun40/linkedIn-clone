@@ -13,6 +13,8 @@ function App() {
   const user = useSelector(selectUser);
   const dispatch = useDispatch()
 
+
+//To stay logged in after refresh
   useEffect(() => {
       auth.onAuthStateChanged((userAuth) => {
         if(userAuth) {
