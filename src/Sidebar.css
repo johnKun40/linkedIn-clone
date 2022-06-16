@@ -1,7 +1,7 @@
 .sidebar{
     top: 80px;
     position: sticky;
-    /* flex: 0.2; */
+    flex: 0.2;
     /* width: 30%; */
     border-radius: 10px;
     text-align: center;
@@ -15,6 +15,7 @@
 .sidebar__top > h4 {
     color: gray;
     font-size: 16px;
+    margin: 0 10px;
 }
 
 .sidebar__top > h2 {
